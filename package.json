@@ -1,0 +1,23 @@
+{
+  "name": "robobrain",
+  "version": "0.0.1",
+  "description": "Robo Brain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/normen/robobrain.git"
+  },
+  "author": "Normen Hansen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/normen/robobrain/issues"
+  },
+  "homepage": "https://github.com/normen/robobrain#readme",
+  "dependencies": {
+    "node-wiring-pi": "0.0.4",
+    "oled-ssd1306-i2c": "git+https://git@github.com/normen/oled_ssd1306_i2c.git"
+  }
+}
